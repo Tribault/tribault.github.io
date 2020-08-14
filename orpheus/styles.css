@@ -22,3 +22,7 @@ img.two {
   height: 50%;
   width: 50%;
 }
+
+body { 
+    background: url(/images/cream_dust.png) repeat 0 0;
+}

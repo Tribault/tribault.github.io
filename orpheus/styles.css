@@ -2,10 +2,12 @@ h1 {
  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
  font-size: 50px;
  line-height: 65px;
+ font-weight: bold;
 }
  
 p {
  font-family: 'Vollkorn', Georgia, Times, serif;
- font-size: 1.25rem;
+ font-size: 18px;
  line-height: 25px;
+ ml-3
 }

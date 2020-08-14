@@ -1,6 +1,11 @@
-h1, h2, h3, h4, h5, h6 {
-    'Raleway', Helvetica, Arial, sans-serif;
+h1 {
+ font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+ font-size: 50px;
+ line-height: 65px;
 }
-p, div {
-    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+ 
+p {
+ font-family: 'Vollkorn', Georgia, Times, serif;
+ font-size: 1.25rem;
+ line-height: 25px;
 }

@@ -11,3 +11,8 @@ p {
  line-height: 25px;
  ml-3
 }
+
+img.two {
+  height: 50%;
+  width: 50%;
+}

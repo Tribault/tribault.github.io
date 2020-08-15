@@ -43,3 +43,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.section-anchor {
+  position: absolute;
+  top: -@navbar-size;
+}

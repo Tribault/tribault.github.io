@@ -1,0 +1,1132 @@
+/* CSS */
+
+
+/* Elements agnostiques */
+a{
+    color: black; 
+    text-decoration: none;
+}
+.underlined{
+    text-decoration: underline ;
+    text-decoration-color: rgb(219, 45, 52);
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 2px;
+
+}
+
+
+/* Elements CSS JQueryUI */
+
+.no-close .ui-dialog-titlebar-close{
+    color:rgba(199, 194, 194, 0.4);
+    
+    border: 0;
+}
+.ui-widget.success-dialog {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: .8em;
+}
+.ui-widget-content.success-dialog {
+  background: #F9F9F9;
+  border: 1px solid white;
+  color: #222222;
+}
+.ui-dialog.success-dialog {
+  left: 0;
+  outline: 0 none;
+  padding: 0 !important;
+  position: absolute;
+  top: 0;
+}
+.ui-dialog.success-dialog .ui-dialog-content {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  overflow: auto;
+  position: relative;
+  padding: 0 !important;
+  margin: 0;
+}
+.ui-dialog.success-dialog .ui-widget-header {
+  background: rgba(199, 194, 194, 0.4);
+  border: 0;
+  color: #fff;
+  font-weight: normal;
+}
+.ui-dialog.success-dialog .ui-dialog-titlebar {
+  padding: 0.1em .5em;
+  position: relative;
+  font-size: 1em;
+}
+
+
+/* Elements réutilisables */
+
+
+.button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-white {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Header */
+
+
+header{
+    background-color: rgb(50, 50, 50);
+    font-size:14px;
+}
+#header{
+    width:70%;
+    margin: 0 20%;
+    height:50px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header img{
+    height: 16px;
+    width: 16px;
+    padding-left:10px;
+}
+#header .empty_child{
+    width: 36.5%;
+}
+#header span{
+    padding-right:20px;
+}
+
+.facebook, .twitter, .gplus, .instagram {
+    cursor: pointer;
+}
+
+
+/* Navigation */
+
+
+#nav{
+    display: flex;
+    width:70%;
+    height:100px;
+    margin: 0 20%;
+    align-items: center;
+}
+#nav a{
+    padding-left: 50px;
+}
+.logo_nav{
+    background-image: url("img/logo.png");
+    height:40px;
+    width:132px;
+}
+.menu_nav{
+    text-align: right;
+    height:100%;
+    width: 90%;
+    line-height: 100px; 
+    vertical-align: middle;
+}
+.menu_nav img{
+    margin: 0 -30px 0 10px;
+}
+
+
+/* FIND YOUR DREAM CAR */
+
+
+#car_rental{
+    width:100%;
+    height:800px;
+    background-image: url("img/hero-bg.jpg");
+    background-size: cover;
+}
+
+.car_rental_container{
+    width:70%;
+    height:100%;
+    margin: 0 20%;
+    display: flex;
+    align-items: center;
+}
+
+.car_rental_text{
+    color:white;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 80px;
+}
+
+.car_rental_text .title{
+    font-size: 25px;
+    margin-bottom: -40px;
+}
+
+.big_title{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.learn_more{
+    font-size: 12px;
+    display: inline;
+}
+
+.small_button{
+    position: relative;
+    bottom: 20%;
+    background-color: #F9F9F9;
+    padding: 8px 12px;
+    border-radius: 5%;
+    display: inline;
+    color:black;
+}
+
+.learn_more .price{
+    padding-left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.smaller{
+    padding-left: 0;
+    font-size: 30px;
+}
+
+.reverso{
+    background-color: transparent;
+    border: white solid 1px;
+    color: #F9F9F9;
+    margin-left:20px;
+}
+
+.car_rental_search_box{
+    color:black;
+    width: 40%;
+    height: 70%;
+    margin: 0 0 15px 0;
+    
+}
+.box_container_button{
+    display:flex;
+    height: 45px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.box_button1{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    
+}
+
+.tab{
+    border-bottom: solid 10px #fff;
+}
+
+.box_button2{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.box_menu{
+    height:100%;
+    width:100%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_menu .title{
+    height:20%;
+    width:90%;
+    line-height: 150px; 
+    font-size: 35px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.box_form{
+    height:80%;
+    width:90%;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.form_single{
+    height:25%;
+    width:50%;
+    
+}
+
+.form_single input[type=text]{
+    height:35%;
+    width:85%;
+    margin-top: 10px;
+    background: transparent;
+    border: thin solid rgba(199, 194, 194, 0.4); 
+    
+}
+
+.box_slide{
+    height:15%;
+    width:100%;
+    margin: 0 auto;
+}
+
+.box_search_button{
+    height:25%;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 100px; 
+    vertical-align: middle;
+    
+}
+
+.ui-slider-range{
+    background-color:rgb(219, 45, 52);;
+}
+
+.ui-slider .ui-slider-handle{
+    border-radius: 50%; 
+    height:12px;
+    width:12px;
+    border:  thin solid rgb(219, 45, 52);;
+}
+
+.ui-slider { 
+    height:4px;
+    margin-top: 20px;
+}
+
+.ui-widget-header {
+    outline: thin solid rgb(219, 45, 52);;
+    }
+
+#amount{
+    pointer-events: none;
+    background: transparent;
+    border:0; 
+    color: black;
+    font-weight:bold;
+
+}
+
+.box_form .button{
+    margin-bottom: 40px;
+
+}
+
+
+/* OUR SERVICE */
+
+
+.sub_title{
+    font-size: 15px;
+}
+#our_services{
+
+    background-color:white;
+    height:800px;
+    display: flex;
+    
+}
+
+#service_panel{
+    width:70%;
+    height:100%;
+    margin: 0 20%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.service_text{
+    width:100%;
+    height:40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ante_title{
+    color: rgb(219, 45, 52);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 40px;
+    padding: 10px 0 25px 0;
+    font-weight: bold;
+}
+
+.normal_text{
+    color: grey;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+#car_rental .price{
+    color:white;
+    font-size: 40px;
+}
+
+.service_single{
+    width:calc(91%/4);
+    height:45%;
+    margin-bottom: 150px;
+    text-align: center;
+    flex-shrink: 1;
+    outline: solid rgb(128, 128, 128, 0.2) 1px;
+    
+}
+
+.service_single .normal_text {
+    font-size:14px;
+    display:block;
+    padding: 0 15px 30px 15px;
+   
+}
+
+.service_single img {
+    padding-top: 40px;
+}
+
+.service_single_button{
+    color:rgb(219, 45, 52);
+    font-weight: 16px;
+    height: 40px;
+    width: 40px;
+    border: solid rgb(128, 128, 128, 0.2) 1px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.empty_child{
+    width:3%;
+    height: 45%;
+    
+}
+
+.service_single_title{
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+
+/* OUR FEATURE */
+
+
+
+#feature{
+    height:600px;
+    width:100%;
+    background-color:rgb(245, 245, 245);
+}
+
+#feature_container{
+    height:600px;
+    width:70%;
+    display: flex;
+    background-color:rgb(245, 245, 245);
+    margin: 0 20%;
+    
+}
+
+#header_our_feature{
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    height:100%;
+    padding-top: 80px;
+}
+
+#header_our_feature .normal_text{
+    padding-bottom: 30px;
+}
+
+#feature_button{
+    display:flex;
+}
+
+#feature_img{
+    background-image: url("img/Capture.JPG");
+    height:100%;
+    width:40%;
+    background-size: cover;
+}
+
+#feature_list{
+    height:100%;
+    width:25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.feature_cell{
+    width:50%;
+    height:Calc(100%/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature_cell .feat_text{
+    display: block;
+    padding-top: 10px;
+    font-size: 15px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.circle{
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    height:100px;
+    width:100px;
+    background-color:white;
+}
+
+#partners{
+    margin-left: 15px;
+    background-color: black;
+}
+
+
+/* BEST VEHICULE OFFERS */
+
+#offers{
+    width:70%;
+    height:1100px;
+    margin: 0 20%;
+}
+
+.offers_text{
+    width:100%;
+    height:20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.offers_text .ante_title{
+    padding-top: 50px;
+}
+
+#offers_research, #offers_sale{
+    color: grey;
+    padding-left: 40px;
+    font-size: smaller;
+}
+
+
+
+.offers_container{
+    height:70%;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offers_cell{
+    height:42%;
+    width:calc(96%/4);
+    display: flex;
+    flex-direction: column;
+    outline: solid rgb(128, 128, 128, 0.2) 1px;
+}
+
+.offers_cell_image{
+    height:155px;
+    width:100%;
+    
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    font-size: 18px;
+    background-size: cover;
+}
+
+.offers_cell_image span+span{
+    margin-left: 5px;
+}
+
+.offers_cell_text{
+    height:45%;
+    width:100%;
+}
+
+.offers_cell_text div{
+    padding: 20px 0px 0px 30px;
+}
+
+.offers_cell_button{
+    height:15%;
+    width:100%;
+    display:flex;
+    outline: solid rgb(128, 128, 128, 0.2) 1px;
+}
+
+.date{
+    outline: solid rgb(128, 128, 128, 0.2) 1px;
+    padding: 5px 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.car_name{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.stats{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.space{
+    padding: 0px 10px;
+}
+
+.grey{
+    color:grey;
+
+}
+
+.blue{
+    background-color:blue;
+}
+
+.red{
+    background-color:red;
+}
+
+.price{
+    align-items: center;
+    display: inline-flex;
+    padding-left: 15px;
+    color: rgb(219, 45, 52);
+    font-weight: bold;
+}
+
+.price .grey{
+    font-weight: normal;
+
+}
+#offers .empty_child{
+    width:1.3%;
+}
+
+
+/* WHY PEOPLE CHOOSE US*/
+
+
+#why{
+    width:100%;
+    height: 501px;
+    background-color: rgba(247,247,247);
+    padding: 0 0 0 5%;
+}
+
+#container_why{
+    width:40%;
+    height:501px;
+    float:left;
+}
+
+#text_why{
+    width: 62.5%;
+    height:100%;
+    float:right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text_why ul {
+    list-style: none;
+    font-size: small;
+    color:grey;
+  }
+  
+#container_why .button{
+    font-size: 15px;
+}
+
+#text_why ul li::before {
+    content: "\2713";  
+    font-size: small;
+    color: white; 
+    border-radius: 50%;
+    height:15px;
+    width:15px;
+    display: inline-block; 
+    margin-left: -3em; 
+    text-align: center;
+    text-justify: justify;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(219, 45, 52);
+}
+
+#text_why .button{
+    width:66px;
+    margin-top: 10px;
+}
+
+#img_why{
+    background-image: url("img/chooseus-video.png");
+    background-size: cover;
+    height:501px;
+    width:60%;
+    display:flex;
+    float:right;
+    align-items: center;
+    justify-content: center;
+}
+.play{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid white;
+}
+
+.round_play{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 45, 52);
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* BLOG*/
+
+
+#blog{
+    width:70%;
+    margin: 0 20%;
+    height: 1000px;
+}
+
+.blog_text{
+    width:100%;
+    height:30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_text .ante_title{
+    padding-top: 80px;
+}
+
+
+.blog_container{
+    height:40%;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog_image{
+    background-image: url("img/lb-1.jpg");
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    color:white;
+    display:flex;
+    align-items: flex-end;
+}
+
+.blog2{
+    background-image: url("img/lb-2.jpg");
+
+}
+
+.blog3{
+    background-image: url("img/lb-3.jpg");
+
+}
+
+.blog_caption{
+width:100%;
+background-color: rgba(0, 0, 0, 0.6);
+height:20%;
+font-size: 14px;
+padding-left: 20px;
+display: flex;
+align-items: center;
+}
+
+.blog_abstract{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog_abstract .title{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.blog_abstract .normal_text{
+    font-size: 14px;
+}
+
+.more{
+    padding-top: 10px;
+    font-weight: bold;
+    color:red;
+}
+
+.blog_cell{
+    height:100%;
+    width:calc(96%/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#blog .empty_child{
+    width:2%;
+}
+
+#blog_ad{
+    width:100%;
+    height:30%;
+    display:flex;
+    align-items: center;
+}
+
+#blog_ad .title { 
+    color: white;
+    font-size: 25px;
+    padding: 50px 0px 10px 20px ;
+
+}
+
+#blog_ad .normal_text { 
+    color: white;
+    padding-left: 20px ;
+    font-size: 14px;
+}
+
+#blog_ad1{
+    width:49%;
+    height:180px;
+    background-image: url("img/cta-1.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+#blog_ad .empty_child{
+    width: 5%;
+}
+
+
+#blog_ad2{
+    width:49%;
+    height:180px;
+    background-color:blue;
+    background-size: cover;
+    background-image: url("img/cta-2.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+
+/* FOOTER*/
+
+
+footer{
+    height: 500px;
+    background-image: url("img/footer-bg.jpg");
+    color:white;
+}
+
+#top_footer{
+    width: 70%;
+    height:40%;
+    margin: 0 20%;
+    display: flex;
+    align-items: center;
+    border-bottom: thin solid grey; 
+}
+
+#top_footer .button, #top_footer .button-white {
+    display:flex;
+    position: relative;
+    left:33%;
+    margin: 10px;
+}
+
+#top_footer .title {
+    padding: 0px;
+}
+
+#bottom_footer{
+    width: 70%;
+    height:60%;
+    margin: 0 20%;
+}
+
+#logo_footer{
+    width:40%;
+    height:100%;
+    float:left;
+}
+
+#sitemap_footer{
+    width:60%;
+    height:100%;
+    
+    float:right;
+}
+
+#call{
+    padding : 15px 0 30px 0;
+    line-height: 1.6;
+    max-width: 40ch;
+    
+}
+
+.columns_footer{
+    float:left;
+    width: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top:35px;
+
+}
+
+.columns_footer ul{
+    list-style-type: none;
+}
+.columns_footer .title{
+    
+    font-size: 17px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#footer_logo{
+    margin-top:40px;
+}
+
+.icon{
+    height:32px;
+    width: 32px;
+    padding: 0 10px 20px 0;
+}
+
+#copyright{
+    white-space: nowrap;
+    font-size: 13px;
+
+}
+
+html, body{
+    margin:0; 
+  }
+
+  /* Accessibilité */
+@media screen {
+    * {font-family:Arial}
+}
+
+@media  all and (max-width: 991){
+    .car_rental {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+    .our_services {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    #header, #nav, #car_rental, #our_services, #feature, #offers, #why, #blog, .columns_footer
+    {
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
+
+@media  all and (max-width: 575px){
+
+
+    .car_rental_container
+    {
+        width:100%;
+        flex: 1 1 1px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .car_rental_text{
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        padding: 20 0;
+        background-color: red;
+        
+    }
+
+    .car_rental_search_box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        
+    }
+
+    .box_container_button {
+        display: flex;
+    }
+
+    #header{
+        width:100%;
+        flex: 1 1 1px;
+        margin: 0 auto;
+        height:auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        }
+
+    #header span{
+        display: flex;
+    
+        }
+
+    #nav{
+        width:100%;
+        height: auto;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu_nav{
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav a{
+        display: flex;
+        width: auto;
+        height:40px;
+        justify-content: center;
+        background-color: green;
+    }
+
+    .img_top img {
+        display: inline;
+        text-align: center;
+        margin: 15px 0px;
+        height: 20px;
+    }
+
+    .img_top {
+        margin: 15px 0;
+    }
+
+    #feature_container{
+        height:auto;
+        width:auto;
+        display: flex;
+        background-color:rgb(245, 245, 245);
+        margin: 0 20%;
+        
+    }
+
+    #service_panel{
+        width:100%;
+        height:100%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    
+    .service_single{
+        width:25%;
+        height:45%;
+        margin-bottom: 150px;
+        text-align: center;
+        outline: solid rgb(128, 128, 128, 0.2) 1px;
+        
+    }
+    
+    
+    .empty_child{
+        width:0%;
+        height: 0%;
+        
+    }
+
+    
+
+
+    }

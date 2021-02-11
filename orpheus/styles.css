@@ -19,8 +19,9 @@ p {
  font-family: 'Vollkorn', Georgia, Times, serif;
  font-size: 18px;
  line-height: 25px;
- ml-3
+
 }
+ 
 
 img.two {
   height: 15%;
@@ -47,3 +48,101 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.both_sides{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.left_side{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.img_banshee {
+  max-width:100%;
+}
+
+.right_side{
+
+  width: 70%;
+  height: auto;
+  display: flex;
+  padding: 0 20px;
+}
+
+#banshee_h .right_side{
+  background-image: url("images/banshee.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#banshee_txt{
+  display:flex;
+  flex-direction: column;
+}
+.titre{
+font-size: 60px;
+margin: 10px 0;
+}
+
+.definition{
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.description_horreur .titre {
+  font-size: 40px;
+  display: flex;
+}
+
+ul{
+  margin: 10px 0;
+  list-style: none;
+}
+
+.spite{
+  color:rgb(122, 34, 34);
+}
+
+.vitality{
+  color:rgb(18, 114, 18);
+}
+
+#Haunter_h .right_side{
+  background-image: url("images/haunters.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#haunter_img img{
+  flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#haunter_img, #marrow_img, #poltergeist_img{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+#marrow_img img, #poltergeist_img img{
+  flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+}
+
+

@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>ORPHEUS</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="https://tribault.github.io/orpheus/">ORPHEUS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#top">Présentation <span class="sr-only">(current)</span></a>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Création de Personnage
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#ancres">Ancres</a>
+          <a class="dropdown-item" href="#attributs">Attributs</a>
+          <a class="dropdown-item" href="#compétences">Compétences</a>
+		  <a class="dropdown-item" href="#approche">Approche</a>
+          <a class="dropdown-item" href="#shade">Shade</a>
+		  <a class="dropdown-item" href="#lament">Lament</a>
+		  <a class="dropdown-item" href="#statistiques">Statistiques</a>
+        </div>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Horreurs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          <a class="dropdown-item" href="#banshee">Banshee</a>
+		  <a class="dropdown-item" href="#haunter">Haunter</a>
+		  <a class="dropdown-item" href="#marrow">Marrow</a>
+		  <a class="dropdown-item" href="#phantasm">Phantasm</a>
+		  <a class="dropdown-item" href="#poltergeist">Poltergeist</a>
+		  <a class="dropdown-item" href="#skinrider">Skinrider</a>
+		  <a class="dropdown-item" href="#wisp">Wisp</a>
+        </div>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#stains">Souillures</a>
+      </li>
+		<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Avantages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          <a class="dropdown-item" href="#orpheus">Orpheus</a>
+		  <a class="dropdown-item" href="#avantages-mentaux">Mentaux</a>
+		  <a class="dropdown-item" href="#avantages-physiques">Physiques</a>
+      <a class="dropdown-item" href="#avantages-sociaux">Sociaux</a>
+      <a class="dropdown-item" href="#av-crucible">Crucible</a>
+        </div>
+		<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Système de jeu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          <a class="dropdown-item" href="#jets">Jets</a>
+		  <a class="dropdown-item" href="#combat">Combat</a>
+		  <a class="dropdown-item" href="#sante">Santé et guérison</a>
+		  <a class="dropdown-item" href="#volonte">Volonté</a>
+		  <a class="dropdown-item" href="#xp">Avancement</a>
+		  <a class="dropdown-item" href="#vitalite">Vitalité</a>
+		  <a class="dropdown-item" href="#rancoeur">Rancoeur</a>
+		  <a class="dropdown-item" href="#cap">Capacités Communes</a>
+        </div>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#weapons">Table des armes</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#lexicon">Lexique</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="https://tribault.github.io/orpheus/fiche.pdf"">Fiche de personnage</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="banshee_h">
+<div class="both_sides">
+
+  <div id="banshee_img" class="left_side"><img class="img_banshee" src="images/wail.jpg"></div>
+  <div id="banshee_txt" class="right_side">
+    <span class="titre">Banshee</span>
+    <span class="definition">banshee \ban.ʃi\ féminin - Fée du folklore irlandais dont le cri annonce une mort imminente. </span>
+    <span class="description_horreur">
+      La Banshee peut <u>se manifester gratuitement aux yeux des mortels en murmurant</u> (une cible maximum pour gémissement).
+      <br>
+      La Banshee projette ses émotions et empatise avec son environnement. La colère terrible et brutale des <u>Poltergeists</u> lui est donc contre-nature et elle ne peut en maitriser les horreurs.
+      <span class="titre">Wail (Gémissement)</span>
+        <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+        <ul>
+          <li><b>Durée :</b> Concentration de la Banshee</li>
+          <li><b>Action :</b> Un Tour</li>
+          <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+          <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+          <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+          <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+        </ul>
+        <span class="titre">Forebode (Présage)</span>
+        <span>La banshee peut activer ce pouvoir en touchant ou en parlant avec un vivant ou un fantôme. Elle peut voir le passé ou le futur de sa cible avec une limite d'une heure. Le pouvoir fonctionne également sur les objets et les lieux. Il n'est utilisable qu'une fois par scénario sur une cible.</span>
+        <ul>
+          <li><b>Durée :</b> Concentration de la Banshee</li>
+          <li><b>Action :</b> Un Tour</li>
+          <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+          <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmenter la durée. Pour un point, la période est étendue à un jour. Pour deux, à un mois. Pour trois, un an. Pour quatre, cinq ans. Pour cinq, dix ans.</span></li>
+          <li><span class="spite"><b>Infusion de Rancoeur :</b> Quand la Banshee puise dans sa colère et sa rage, sa voix déchire et écorche. En puisant dans la rancoeur, le gémissement inflige des dégâts létaux (base: +0). Le jet reste identique mais la cible utilise son Endurance pour résister. Un succès critique rend l'adversaire sourd.</span> </li>
+          <li><b>Soutien :</b> Dépenser un point de Vitalité fait bénéficier un allié de relancer les 9 et les 10 sur un jet d’Horreur. L’aide dure 1 tour.</li>
+        </ul>
+        <span class="titre">Pandémonium</span>
+        <span>La banshee ne se contente plus de voir le futur ; elle peut l'influencer. Elle déclare une prophétie que sa cible doit entendre. La cible aura du mal à échapper à ce sort : elle aura un malus de -1 à son jet pour y échapper ou +1 si elle essaye de le réaliser. La prophétie ne peut affecter que le scénario en cours et restera sans effet au-delà. </span>
+        <ul>
+          <li><b>Durée :</b> Spécial</li>
+          <li><b>Action :</b> Instantanée</li>
+          <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+          <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente la puissance entropique de la prophétie. Le malus bonus augmente de +1 / -1 par point de Vitalité investi.</span></li>
+          <li><span class="spite"><b>Infusion de Rancoeur :</b> En infusant ses émotions négatives dans la prophétie, la banshee rend les tentatives de résistance vaines. En plus du bonus d'infusion de Vitalité, chaque point de Rancoeur investi retire un succès et augmente la tranche d'échec critique. (0 / 2 / 3 / 4 / 5)</span> </li>
+          <li><b>Soutien :</b> Dépenser un point de Vitalité permet de lancer le jet à la place de l'allié et d'échanger le résultat si ce dernier est meilleur.</li>
+        </ul>
+        <span class="titre">Screaming Nothing (Néant hurlant)</span>
+        <span>Cette horreur terrifiante permet à la banshee de créer des trous noirs de desespoir alimentés par ses propres ténèbres. Le projecteur peut créer un nihil n'importe où à courte portée : sur un mur, par terre, etc. Partout SAUF sur un être vivant. Ce nihil est assez grand pour qu'un être humain puisse passer dedans. Toute personne qui traverse (ou tombe) se retrouve téléportée à un endroit aléatoire de l'Outre-Terre.</span>
+        <ul>
+          <li><b>Durée :</b> Concentration de la Banshee</li>
+          <li><b>Action :</b> Instantané</li>
+          <li><b>Jet :</b> Calme + Occulte</li>
+          <li><span class="vitality"><b>Infusion de Vitalité :</b> Chaque point investit permet de faire une des choses suivantes : Agrandir la taille du Nihil / Déplacer le Nihil à l'envie / Piéger le Nihil avec de Vitalité (pour blesser des vivants ou des spectres) / Voir de l'autre côté du Nihil / Spécifier le point d'arrivée. A noter que le Nihil est un trou dans la fabrique du temps et de l'espace et affecte les humains sans manifestation.</span></li>
+          <li><span class="spite"><b>Infusion de Rancoeur :</b> En invoquant les tréfonds de son âme dans la création d'un Nihil, la Banshee ouvre un portail vers le Néant, déchirant toute PLE dôtée de Vitalité. (2 points de dégâts par niveau // 1 Léthal pour les vivants)</span> </li>
+          <li><b>Soutien :</b> En créant des mico-nihils, la Banshee QUADRUPLE le nombre de cibles de l'horreur alliée.</li>
+        </ul>
+    </span>
+  </div>
+
+</div>
+</section>
+
+<section id="Haunter_h">
+  <div class="both_sides">
+  
+    <div id="banshee_txt" class="right_side">
+      <span class="titre">Haunter</span>
+      <span class="definition">hanteur \ɑ̃.tœʁ\ masculin - Ce dit d'un être qui occupe de sa présence un lieu fréquenté ou désert.  </span>
+      <span class="description_horreur">
+        Le Haunter peut <u>se manifester gratuitement aux yeux des mortels à travers les surfaces réfléchissantes</u>.
+        <br>
+        "Aide-toi et le ciel t'aidera" pourrait être la devise du haunter, solitaire et débrouillard. L'empathie et le mystiscime propres aux <u>Banshees</u> lui sont donc contre-nature et il ne peut en maitriser les horreurs.
+        <span class="titre">Wail (Gémissement)</span>
+          <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+          <ul>
+            <li><b>Durée :</b> Concentration de la Banshee</li>
+            <li><b>Action :</b> Un Tour</li>
+            <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+            <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+            <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+            <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+          </ul>
+          <span class="titre">Forebode (Présage)</span>
+          <span>La banshee peut activer ce pouvoir en touchant ou en parlant avec un vivant ou un fantôme. Elle peut voir le passé ou le futur de sa cible avec une limite d'une heure. Le pouvoir fonctionne également sur les objets et les lieux. Il n'est utilisable qu'une fois par scénario sur une cible.</span>
+          <ul>
+            <li><b>Durée :</b> Concentration de la Banshee</li>
+            <li><b>Action :</b> Un Tour</li>
+            <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+            <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmenter la durée. Pour un point, la période est étendue à un jour. Pour deux, à un mois. Pour trois, un an. Pour quatre, cinq ans. Pour cinq, dix ans.</span></li>
+            <li><span class="spite"><b>Infusion de Rancoeur :</b> Quand la Banshee puise dans sa colère et sa rage, sa voix déchire et écorche. En puisant dans la rancoeur, le gémissement inflige des dégâts létaux (base: +0). Le jet reste identique mais la cible utilise son Endurance pour résister. Un succès critique rend l'adversaire sourd.</span> </li>
+            <li><b>Soutien :</b> Dépenser un point de Vitalité fait bénéficier un allié de relancer les 9 et les 10 sur un jet d’Horreur. L’aide dure 1 tour.</li>
+          </ul>
+          <span class="titre">Wail (Gémissement)</span>
+          <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+          <ul>
+            <li><b>Durée :</b> Concentration de la Banshee</li>
+            <li><b>Action :</b> Un Tour</li>
+            <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+            <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+            <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+            <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+          </ul>
+          <span class="titre">Wail (Gémissement)</span>
+          <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+          <ul>
+            <li><b>Durée :</b> Concentration de la Banshee</li>
+            <li><b>Action :</b> Un Tour</li>
+            <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+            <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+            <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+            <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+          </ul>
+      </span>
+    </div>
+    <div id="haunter_img" class="left_side"><img src="images/witch.jpg"></div>
+  
+  </div>
+  </section>
+
+  <section id="marrow_h">
+    <div class="both_sides">
+    
+      <div id="marrow_img" class="left_side"><img src="images/marrow.jpg"></div>
+      <div id="banshee_txt" class="right_side">
+        <span class="titre">Marrow</span>
+        <span class="definition">moelle \mwal\ féminin  - Ce qu’il y a de plus instructif, d’essentiel, dans un ouvrage de l’esprit. </span>
+        <span class="description_horreur">
+          La Marrow peut <u>se manifester sous forme de petit animal</u> (pas plus gros qu'un rat).
+          <br>
+          La Marrow est un animal social capable de s'adapter à tous les milieux et toutes les situations. Elle n'a pas la patience et l'imagination des <u>Phantasms</u>  et  ne peut donc pas en maitriser les horreurs.
+          <span class="titre">Wail (Gémissement)</span>
+            <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+            <ul>
+              <li><b>Durée :</b> Concentration de la Banshee</li>
+              <li><b>Action :</b> Un Tour</li>
+              <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+              <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+              <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+              <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+            </ul>
+            <span class="titre">Forebode (Présage)</span>
+            <span>La banshee peut activer ce pouvoir en touchant ou en parlant avec un vivant ou un fantôme. Elle peut voir le passé ou le futur de sa cible avec une limite d'une heure. Le pouvoir fonctionne également sur les objets et les lieux. Il n'est utilisable qu'une fois par scénario sur une cible.</span>
+            <ul>
+              <li><b>Durée :</b> Concentration de la Banshee</li>
+              <li><b>Action :</b> Un Tour</li>
+              <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+              <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmenter la durée. Pour un point, la période est étendue à un jour. Pour deux, à un mois. Pour trois, un an. Pour quatre, cinq ans. Pour cinq, dix ans.</span></li>
+              <li><span class="spite"><b>Infusion de Rancoeur :</b> Quand la Banshee puise dans sa colère et sa rage, sa voix déchire et écorche. En puisant dans la rancoeur, le gémissement inflige des dégâts létaux (base: +0). Le jet reste identique mais la cible utilise son Endurance pour résister. Un succès critique rend l'adversaire sourd.</span> </li>
+              <li><b>Soutien :</b> Dépenser un point de Vitalité fait bénéficier un allié de relancer les 9 et les 10 sur un jet d’Horreur. L’aide dure 1 tour.</li>
+            </ul>
+            <span class="titre">Pandémonium</span>
+            <span>La banshee ne se contente plus de voir le futur ; elle peut l'influencer. Elle déclare une prophétie que sa cible doit entendre. La cible aura du mal à échapper à ce sort : elle aura un malus de -1 à son jet pour y échapper ou +1 si elle essaye de le réaliser. La prophétie ne peut affecter que le scénario en cours et restera sans effet au-delà. </span>
+            <ul>
+              <li><b>Durée :</b> Spécial</li>
+              <li><b>Action :</b> Instantanée</li>
+              <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+              <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente la puissance entropique de la prophétie. Le malus bonus augmente de +1 / -1 par point de Vitalité investi.</span></li>
+              <li><span class="spite"><b>Infusion de Rancoeur :</b> En infusant ses émotions négatives dans la prophétie, la banshee rend les tentatives de résistance vaines. En plus du bonus d'infusion de Vitalité, chaque point de Rancoeur investi retire un succès et augmente la tranche d'échec critique. (0 / 2 / 3 / 4 / 5)</span> </li>
+              <li><b>Soutien :</b> Dépenser un point de Vitalité permet de lancer le jet à la place de l'allié et d'échanger le résultat si ce dernier est meilleur.</li>
+            </ul>
+            <span class="titre">Screaming Nothing (Néant hurlant)</span>
+            <span>Cette horreur terrifiante permet à la banshee de créer des trous noirs de desespoir alimentés par ses propres ténèbres. Le projecteur peut créer un nihil n'importe où à courte portée : sur un mur, par terre, etc. Partout SAUF sur un être vivant. Ce nihil est assez grand pour qu'un être humain puisse passer dedans. Toute personne qui traverse (ou tombe) se retrouve téléportée à un endroit aléatoire de l'Outre-Terre.</span>
+            <ul>
+              <li><b>Durée :</b> Concentration de la Banshee</li>
+              <li><b>Action :</b> Instantané</li>
+              <li><b>Jet :</b> Calme + Occulte</li>
+              <li><span class="vitality"><b>Infusion de Vitalité :</b> Chaque point investit permet de faire une des choses suivantes : Agrandir la taille du Nihil / Déplacer le Nihil à l'envie / Piéger le Nihil avec de Vitalité (pour blesser des vivants ou des spectres) / Voir de l'autre côté du Nihil / Spécifier le point d'arrivée. A noter que le Nihil est un trou dans la fabrique du temps et de l'espace et affecte les humains sans manifestation.</span></li>
+              <li><span class="spite"><b>Infusion de Rancoeur :</b> En invoquant les tréfonds de son âme dans la création d'un Nihil, la Banshee ouvre un portail vers le Néant, déchirant toute PLE dôtée de Vitalité. (2 points de dégâts par niveau // 1 Léthal pour les vivants)</span> </li>
+              <li><b>Soutien :</b> En créant des mico-nihils, la Banshee QUADRUPLE le nombre de cibles de l'horreur alliée.</li>
+            </ul>
+        </span>
+      </div>
+    
+    </div>
+    </section>
+
+    <section id="phantasm_h">
+      <div class="both_sides">
+      
+        <div id="banshee_txt" class="right_side">
+          <span class="titre">Phantasm</span>
+          <span class="definition">hanteur \ɑ̃.tœʁ\ masculin - Ce dit d'un être qui occupe de sa présence un lieu fréquenté ou désert.  </span>
+          <span class="description_horreur">
+            La Banshee peut <u>se manifester gratuitement aux yeux des mortels en murmurant</u> (une cible maximum pour gémissement).
+            <br>
+            La Banshee projette ses émotions et empatise avec son environnement. La colère terrible et brutale des <u>Poltergeists</u> lui est donc contre-nature et elle ne peut en maitriser les horreurs.
+            <span class="titre">Wail (Gémissement)</span>
+              <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+              <ul>
+                <li><b>Durée :</b> Concentration de la Banshee</li>
+                <li><b>Action :</b> Un Tour</li>
+                <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+              </ul>
+              <span class="titre">Forebode (Présage)</span>
+              <span>La banshee peut activer ce pouvoir en touchant ou en parlant avec un vivant ou un fantôme. Elle peut voir le passé ou le futur de sa cible avec une limite d'une heure. Le pouvoir fonctionne également sur les objets et les lieux. Il n'est utilisable qu'une fois par scénario sur une cible.</span>
+              <ul>
+                <li><b>Durée :</b> Concentration de la Banshee</li>
+                <li><b>Action :</b> Un Tour</li>
+                <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+                <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmenter la durée. Pour un point, la période est étendue à un jour. Pour deux, à un mois. Pour trois, un an. Pour quatre, cinq ans. Pour cinq, dix ans.</span></li>
+                <li><span class="spite"><b>Infusion de Rancoeur :</b> Quand la Banshee puise dans sa colère et sa rage, sa voix déchire et écorche. En puisant dans la rancoeur, le gémissement inflige des dégâts létaux (base: +0). Le jet reste identique mais la cible utilise son Endurance pour résister. Un succès critique rend l'adversaire sourd.</span> </li>
+                <li><b>Soutien :</b> Dépenser un point de Vitalité fait bénéficier un allié de relancer les 9 et les 10 sur un jet d’Horreur. L’aide dure 1 tour.</li>
+              </ul>
+              <span class="titre">Wail (Gémissement)</span>
+              <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+              <ul>
+                <li><b>Durée :</b> Concentration de la Banshee</li>
+                <li><b>Action :</b> Un Tour</li>
+                <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+              </ul>
+              <span class="titre">Wail (Gémissement)</span>
+              <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+              <ul>
+                <li><b>Durée :</b> Concentration de la Banshee</li>
+                <li><b>Action :</b> Un Tour</li>
+                <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+              </ul>
+          </span>
+        </div>
+        <div id="haunter_img" class="left_side"><img src="images/phantasm.jpg"></div>
+      
+      </div>
+      </section>
+
+      <section id="poltergeist_h">
+        <div class="both_sides">
+          <div id="poltergeist_img" class="left_side"><img class="img_banshee" src="images/polterg.jpg"></div>
+          <div id="banshee_txt" class="right_side">
+            <span class="titre">Poltergeist</span>
+            <span class="definition">banshee \ban.ʃi\ féminin - Fée du folklore irlandais dont le cri annonce une mort imminente. </span>
+            <span class="description_horreur">
+              La Banshee peut <u>se manifester gratuitement aux yeux des mortels en murmurant</u> (une cible maximum pour gémissement).
+              <br>
+              La Banshee projette ses émotions et empatise avec son environnement. La colère terrible et brutale des <u>Poltergeists</u> lui est donc contre-nature et elle ne peut en maitriser les horreurs.
+              <span class="titre">Wail (Gémissement)</span>
+                <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+                <ul>
+                  <li><b>Durée :</b> Concentration de la Banshee</li>
+                  <li><b>Action :</b> Un Tour</li>
+                  <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                  <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                  <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                  <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+                </ul>
+                <span class="titre">Forebode (Présage)</span>
+                <span>La banshee peut activer ce pouvoir en touchant ou en parlant avec un vivant ou un fantôme. Elle peut voir le passé ou le futur de sa cible avec une limite d'une heure. Le pouvoir fonctionne également sur les objets et les lieux. Il n'est utilisable qu'une fois par scénario sur une cible.</span>
+                <ul>
+                  <li><b>Durée :</b> Concentration de la Banshee</li>
+                  <li><b>Action :</b> Un Tour</li>
+                  <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+                  <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmenter la durée. Pour un point, la période est étendue à un jour. Pour deux, à un mois. Pour trois, un an. Pour quatre, cinq ans. Pour cinq, dix ans.</span></li>
+                  <li><span class="spite"><b>Infusion de Rancoeur :</b> Quand la Banshee puise dans sa colère et sa rage, sa voix déchire et écorche. En puisant dans la rancoeur, le gémissement inflige des dégâts létaux (base: +0). Le jet reste identique mais la cible utilise son Endurance pour résister. Un succès critique rend l'adversaire sourd.</span> </li>
+                  <li><b>Soutien :</b> Dépenser un point de Vitalité fait bénéficier un allié de relancer les 9 et les 10 sur un jet d’Horreur. L’aide dure 1 tour.</li>
+                </ul>
+                <span class="titre">Pandémonium</span>
+                <span>La banshee ne se contente plus de voir le futur ; elle peut l'influencer. Elle déclare une prophétie que sa cible doit entendre. La cible aura du mal à échapper à ce sort : elle aura un malus de -1 à son jet pour y échapper ou +1 si elle essaye de le réaliser. La prophétie ne peut affecter que le scénario en cours et restera sans effet au-delà. </span>
+                <ul>
+                  <li><b>Durée :</b> Spécial</li>
+                  <li><b>Action :</b> Instantanée</li>
+                  <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+                  <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente la puissance entropique de la prophétie. Le malus bonus augmente de +1 / -1 par point de Vitalité investi.</span></li>
+                  <li><span class="spite"><b>Infusion de Rancoeur :</b> En infusant ses émotions négatives dans la prophétie, la banshee rend les tentatives de résistance vaines. En plus du bonus d'infusion de Vitalité, chaque point de Rancoeur investi retire un succès et augmente la tranche d'échec critique. (0 / 2 / 3 / 4 / 5)</span> </li>
+                  <li><b>Soutien :</b> Dépenser un point de Vitalité permet de lancer le jet à la place de l'allié et d'échanger le résultat si ce dernier est meilleur.</li>
+                </ul>
+                <span class="titre">Screaming Nothing (Néant hurlant)</span>
+                <span>Cette horreur terrifiante permet à la banshee de créer des trous noirs de desespoir alimentés par ses propres ténèbres. Le projecteur peut créer un nihil n'importe où à courte portée : sur un mur, par terre, etc. Partout SAUF sur un être vivant. Ce nihil est assez grand pour qu'un être humain puisse passer dedans. Toute personne qui traverse (ou tombe) se retrouve téléportée à un endroit aléatoire de l'Outre-Terre.</span>
+                <ul>
+                  <li><b>Durée :</b> Concentration de la Banshee</li>
+                  <li><b>Action :</b> Instantané</li>
+                  <li><b>Jet :</b> Calme + Occulte</li>
+                  <li><span class="vitality"><b>Infusion de Vitalité :</b> Chaque point investit permet de faire une des choses suivantes : Agrandir la taille du Nihil / Déplacer le Nihil à l'envie / Piéger le Nihil avec de Vitalité (pour blesser des vivants ou des spectres) / Voir de l'autre côté du Nihil / Spécifier le point d'arrivée. A noter que le Nihil est un trou dans la fabrique du temps et de l'espace et affecte les humains sans manifestation.</span></li>
+                  <li><span class="spite"><b>Infusion de Rancoeur :</b> En invoquant les tréfonds de son âme dans la création d'un Nihil, la Banshee ouvre un portail vers le Néant, déchirant toute PLE dôtée de Vitalité. (2 points de dégâts par niveau // 1 Léthal pour les vivants)</span> </li>
+                  <li><b>Soutien :</b> En créant des mico-nihils, la Banshee QUADRUPLE le nombre de cibles de l'horreur alliée.</li>
+                </ul>
+            </span>
+          </div>
+        
+        </div>
+        </section>
+        
+        <section id="Skinrider_h">
+          <div class="both_sides">
+          
+            <div id="banshee_txt" class="right_side">
+              <span class="titre">Skinrider</span>
+              <span class="definition">hanteur \ɑ̃.tœʁ\ masculin - Ce dit d'un être qui occupe de sa présence un lieu fréquenté ou désert.  </span>
+              <span class="description_horreur">
+                La Banshee peut <u>se manifester gratuitement aux yeux des mortels en murmurant</u> (une cible maximum pour gémissement).
+                <br>
+                La Banshee projette ses émotions et empatise avec son environnement. La colère terrible et brutale des <u>Poltergeists</u> lui est donc contre-nature et elle ne peut en maitriser les horreurs.
+                <span class="titre">Wail (Gémissement)</span>
+                  <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+                  <ul>
+                    <li><b>Durée :</b> Concentration de la Banshee</li>
+                    <li><b>Action :</b> Un Tour</li>
+                    <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                    <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                    <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                    <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+                  </ul>
+                  <span class="titre">Forebode (Présage)</span>
+                  <span>La banshee peut activer ce pouvoir en touchant ou en parlant avec un vivant ou un fantôme. Elle peut voir le passé ou le futur de sa cible avec une limite d'une heure. Le pouvoir fonctionne également sur les objets et les lieux. Il n'est utilisable qu'une fois par scénario sur une cible.</span>
+                  <ul>
+                    <li><b>Durée :</b> Concentration de la Banshee</li>
+                    <li><b>Action :</b> Un Tour</li>
+                    <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+                    <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmenter la durée. Pour un point, la période est étendue à un jour. Pour deux, à un mois. Pour trois, un an. Pour quatre, cinq ans. Pour cinq, dix ans.</span></li>
+                    <li><span class="spite"><b>Infusion de Rancoeur :</b> Quand la Banshee puise dans sa colère et sa rage, sa voix déchire et écorche. En puisant dans la rancoeur, le gémissement inflige des dégâts létaux (base: +0). Le jet reste identique mais la cible utilise son Endurance pour résister. Un succès critique rend l'adversaire sourd.</span> </li>
+                    <li><b>Soutien :</b> Dépenser un point de Vitalité fait bénéficier un allié de relancer les 9 et les 10 sur un jet d’Horreur. L’aide dure 1 tour.</li>
+                  </ul>
+                  <span class="titre">Wail (Gémissement)</span>
+                  <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+                  <ul>
+                    <li><b>Durée :</b> Concentration de la Banshee</li>
+                    <li><b>Action :</b> Un Tour</li>
+                    <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                    <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                    <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                    <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+                  </ul>
+                  <span class="titre">Wail (Gémissement)</span>
+                  <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+                  <ul>
+                    <li><b>Durée :</b> Concentration de la Banshee</li>
+                    <li><b>Action :</b> Un Tour</li>
+                    <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                    <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                    <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                    <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+                  </ul>
+              </span>
+            </div>
+            <div id="haunter_img" class="left_side"><img class="img_banshee" src="images/skinr.jpg"></div>
+          
+          </div>
+          </section>
+        
+          <section id="wisp_h">
+            <div class="both_sides">
+            
+              <div id="banshee_img" class="left_side"><img class="img_banshee" src="images/wi.jpg"></div>
+              <div id="banshee_txt" class="right_side">
+                <span class="titre">Wisp</span>
+                <span class="definition">banshee \ban.ʃi\ féminin - Fée du folklore irlandais dont le cri annonce une mort imminente. </span>
+                <span class="description_horreur">
+                  La Banshee peut <u>se manifester gratuitement aux yeux des mortels en murmurant</u> (une cible maximum pour gémissement).
+                  <br>
+                  La Banshee projette ses émotions et empatise avec son environnement. La colère terrible et brutale des <u>Poltergeists</u> lui est donc contre-nature et elle ne peut en maitriser les horreurs.
+                  <span class="titre">Wail (Gémissement)</span>
+                    <span>Wail permet d’utiliser votre voix pour altérer des émotions de la cible. Elle peut calmer ou faire enrager la cible.</span>
+                    <ul>
+                      <li><b>Durée :</b> Concentration de la Banshee</li>
+                      <li><b>Action :</b> Un Tour</li>
+                      <li><b>Jet :</b> Manipulation + Empathie ( - Détermination)</li>
+                      <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente le nombre de cibles affectées. Pour un point de vitalité, toutes les personnes fâce à la Banshee sont désormais affectées. Pour deux points, toutes les personnes à une distance rapproché sont affectées. A trois points, toutes les personnes à courte portée. A ce niveau, les effets sont non-discriminatoires. C'est tout le monde ou personne.</span></li>
+                      <li><span class="spite"><b>Infusion de Rancoeur :</b> L'effet est identique mais l'effet peut s'appliquer aux spectres.</span> </li>
+                      <li><b>Soutien :</b> Dépenser un point de Vitalité double la distance, la zone d’effet OU le nombre de cibles d’une autre Horreur. Non cumulable.</li>
+                    </ul>
+                    <span class="titre">Forebode (Présage)</span>
+                    <span>La banshee peut activer ce pouvoir en touchant ou en parlant avec un vivant ou un fantôme. Elle peut voir le passé ou le futur de sa cible avec une limite d'une heure. Le pouvoir fonctionne également sur les objets et les lieux. Il n'est utilisable qu'une fois par scénario sur une cible.</span>
+                    <ul>
+                      <li><b>Durée :</b> Concentration de la Banshee</li>
+                      <li><b>Action :</b> Un Tour</li>
+                      <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+                      <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmenter la durée. Pour un point, la période est étendue à un jour. Pour deux, à un mois. Pour trois, un an. Pour quatre, cinq ans. Pour cinq, dix ans.</span></li>
+                      <li><span class="spite"><b>Infusion de Rancoeur :</b> Quand la Banshee puise dans sa colère et sa rage, sa voix déchire et écorche. En puisant dans la rancoeur, le gémissement inflige des dégâts létaux (base: +0). Le jet reste identique mais la cible utilise son Endurance pour résister. Un succès critique rend l'adversaire sourd.</span> </li>
+                      <li><b>Soutien :</b> Dépenser un point de Vitalité fait bénéficier un allié de relancer les 9 et les 10 sur un jet d’Horreur. L’aide dure 1 tour.</li>
+                    </ul>
+                    <span class="titre">Pandémonium</span>
+                    <span>La banshee ne se contente plus de voir le futur ; elle peut l'influencer. Elle déclare une prophétie que sa cible doit entendre. La cible aura du mal à échapper à ce sort : elle aura un malus de -1 à son jet pour y échapper ou +1 si elle essaye de le réaliser. La prophétie ne peut affecter que le scénario en cours et restera sans effet au-delà. </span>
+                    <ul>
+                      <li><b>Durée :</b> Spécial</li>
+                      <li><b>Action :</b> Instantanée</li>
+                      <li><b>Jet :</b> Astuce + Empathie VS Détermination + Calme + Bonus surnaturel</li>
+                      <li><span class="vitality"><b>Infusion de Vitalité :</b> Augmente la puissance entropique de la prophétie. Le malus bonus augmente de +1 / -1 par point de Vitalité investi.</span></li>
+                      <li><span class="spite"><b>Infusion de Rancoeur :</b> En infusant ses émotions négatives dans la prophétie, la banshee rend les tentatives de résistance vaines. En plus du bonus d'infusion de Vitalité, chaque point de Rancoeur investi retire un succès et augmente la tranche d'échec critique. (0 / 2 / 3 / 4 / 5)</span> </li>
+                      <li><b>Soutien :</b> Dépenser un point de Vitalité permet de lancer le jet à la place de l'allié et d'échanger le résultat si ce dernier est meilleur.</li>
+                    </ul>
+                    <span class="titre">Screaming Nothing (Néant hurlant)</span>
+                    <span>Cette horreur terrifiante permet à la banshee de créer des trous noirs de desespoir alimentés par ses propres ténèbres. Le projecteur peut créer un nihil n'importe où à courte portée : sur un mur, par terre, etc. Partout SAUF sur un être vivant. Ce nihil est assez grand pour qu'un être humain puisse passer dedans. Toute personne qui traverse (ou tombe) se retrouve téléportée à un endroit aléatoire de l'Outre-Terre.</span>
+                    <ul>
+                      <li><b>Durée :</b> Concentration de la Banshee</li>
+                      <li><b>Action :</b> Instantané</li>
+                      <li><b>Jet :</b> Calme + Occulte</li>
+                      <li><span class="vitality"><b>Infusion de Vitalité :</b> Chaque point investit permet de faire une des choses suivantes : Agrandir la taille du Nihil / Déplacer le Nihil à l'envie / Piéger le Nihil avec de Vitalité (pour blesser des vivants ou des spectres) / Voir de l'autre côté du Nihil / Spécifier le point d'arrivée. A noter que le Nihil est un trou dans la fabrique du temps et de l'espace et affecte les humains sans manifestation.</span></li>
+                      <li><span class="spite"><b>Infusion de Rancoeur :</b> En invoquant les tréfonds de son âme dans la création d'un Nihil, la Banshee ouvre un portail vers le Néant, déchirant toute PLE dôtée de Vitalité. (2 points de dégâts par niveau // 1 Léthal pour les vivants)</span> </li>
+                      <li><b>Soutien :</b> En créant des mico-nihils, la Banshee QUADRUPLE le nombre de cibles de l'horreur alliée.</li>
+                    </ul>
+                </span>
+              </div>
+            
+            </div>
+            </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

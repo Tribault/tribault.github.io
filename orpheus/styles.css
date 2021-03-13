@@ -84,7 +84,7 @@ body {
 
 }
 
-#banshee_txt{
+#banshee_txt, #haunter_txt, #marrow_txt, #phantasm_txt, #skinrider_txt, #wisp_txt, #poltergeist_txt, #crucible_txt {
   display:flex;
   flex-direction: column;
 }
@@ -145,4 +145,51 @@ ul{
 
 }
 
+#marrow_h .right_side{
+  background-image: url("images/marrow.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
+}
+
+#phantasm_h .right_side{
+  background-image: url("images/Phantasm.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#poltergeist_h .right_side{
+  background-image: url("images/poltergeist.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#Skinrider_h .right_side{
+  background-image: url("images/skinriders.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#wisp_h .right_side{
+  background-image: url("images/wisp.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#Crucible_h, .hidden {
+  display: none;
+}
+
+.inner{
+  margin-left: 50px;
+  font-size: 14px;
+}
